@@ -1,0 +1,352 @@
+.confirm{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  background-color: #ececec;
+  //height: 100vh;
+
+  .pro-clo{
+    position: relative;
+    display: flex;
+    border-radius: 25px;
+    border: 5px solid #e5dddd;
+    //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    //margin: 16px;
+    padding: 16px;
+    background-color: #fff;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+    .pro-info-between{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 16px;
+    }
+    .pro-info-total{
+      margin: 16px;
+      padding-top: 16px;
+      border-top: 5px solid #b4b4b4;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+
+      .pro-price2{
+        font-size: 28px;
+        color: #fa2e1b;
+        font-weight: bold;
+        text-align: right;
+      }
+    }
+  }
+  .pro-row{
+    position: relative;
+    display: flex;
+    border-radius: 25px;
+    justify-content: left;
+    flex-direction: row;
+    background-color: #f3cbcb;
+    margin-bottom: 16px;
+    align-items: center;
+
+    .pro-clo-info{
+      position: relative;
+      display: flex;
+      border-radius: 25px;
+      border: 5px solid #e5dddd;
+      width: 60%;
+      padding: 16px;
+      background-color: #fff;
+      flex-direction: column;
+    }
+  }
+  .pro-image{
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    border-radius: 25px;
+    object-fit: cover;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(28, 28, 28, 0.16);
+  }
+  .pro-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .pro-spec{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+
+    .specvalue{
+      //white-space: nowrap;         /* 强制文本在一行显示 */
+      overflow: hidden;            /* 隐藏溢出内容 */
+      //text-overflow: ellipsis;
+      padding: 8px;
+      border-radius: 15px;
+      font-size: 20px;
+      color: #656565;
+      margin-right: 3px;
+      background-color: rgba(239, 239, 239, 0.83);
+    }
+  }
+  .pro-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .pro-price{
+      font-size: 28px;
+      color: #fa2e1b;
+      font-weight: bold;
+    }
+    .pro-quantity{
+      font-size: 28px;
+    }
+  }
+  .pro-service{
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #fa2e1b;
+    margin-right: 3px;
+    border: 2px solid #fa2e1b;
+    background-color: rgba(252, 252, 252, 0.83);
+  }
+  .pro-give{
+    //white-space: nowrap;         /* 强制文本在一行显示 */
+    overflow: hidden;            /* 隐藏溢出内容 */
+    //text-overflow: ellipsis;
+    padding: 8px;
+    //border-radius: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #888888;
+    margin-right: 3px;
+    background-color: rgb(255, 255, 255);
+  }
+  .pro-message-out{
+    position: relative;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-between;
+    flex-direction: row;
+    //background-color: #f3cbcb;
+
+    .pro-message-title{
+      padding: 8px;
+      text-align: right;
+      font-size: 28px;
+      color: #000000;
+      margin-right: 16px;
+      background-color: rgb(255, 255, 255);
+    }
+    .pro-message{
+      padding: 8px;
+      text-align: right;
+      font-size: 28px;
+      color: #52b898;
+      margin-right: 3px;
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}
+
+.actions2{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  background-color: #ffffff;
+
+  .action2-button-car{
+    width: 35%;
+    height: 80px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 28rpx;
+    border-radius: 40rpx;
+    background-color: #ffbd0f; /* 加入购物车的颜色 */
+  }
+  .action2-button-buy{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28rpx;
+    border-radius: 40rpx;
+    background-color: #f21c0e; /* 立即购买的颜色 */
+  }
+}
+
+
+
+
+
+
+
+//.actions-daizi{
+//  display: flex;
+//  flex-direction: row;
+//  justify-content: space-between;
+//  align-items: center;
+//  width: 60%;
+//
+//  .action2-button-car{
+//    width: 35%;
+//    height: 80px;
+//    color: #ffffff;
+//    text-align: center;
+//    justify-content: center;
+//    align-items: center;
+//    font-size: 28rpx;
+//    border-radius: 40rpx;
+//    background-color: #ffbd0f; /* 加入购物车的颜色 */
+//  }
+//  .action2-button-buy{
+//    height: 80px;
+//    justify-content: center;
+//    align-items: center;
+//    width: 35%;
+//    color: #ffffff;
+//    text-align: center;
+//    font-size: 28rpx;
+//    border-radius: 40rpx;
+//    background-color: #f21c0e; /* 立即购买的颜色 */
+//  }
+//}
+
+.payframe .at-float-layout__container {
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+}
+
+.closebutton-out{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .closebutton {
+    margin-left: 20px;
+    font-size: 36px;
+    padding: 5px;
+  }
+  .mimaused{
+    margin-right: 20px;
+    font-size: 28px;
+    padding: 5px;
+    color: #596a8d;
+  }
+}
+
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.payment-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  border-bottom: 5px solid #efefef;
+}
+
+.payment-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.payment-amount-icon{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+.payment-amount {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.payment-method {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.payment-method2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.payment-method-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.payment-icon {
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.payment-description {
+  margin-bottom: 10px;
+  color: #a8a8a8;
+  font-size: 26px;
+}
+
+.payment-button {
+  height: 80px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #07c161;
+  color: white;
+  font-size: 28px;
+}
+.xuniline{
+  height: 100px;
+  width: 100%;
+}
+.hjtotal{
+  padding: 8px;
+  text-align: center;
+  font-size: 28px;
+  color: #000000;
+  margin-left: 16px;
+}
+.hjprice{
+  padding: 8px 0;
+  font-size: 28px;
+  color: #fa2e1b;
+  font-weight: bold;
+  text-align: center;
+}

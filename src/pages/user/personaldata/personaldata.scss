@@ -1,0 +1,82 @@
+.onedata-col{
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+
+  .oneinfo-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 30px;
+
+    .oneinfo-row{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 16px 16px;
+      width: 90%;
+      min-height: 60px;
+
+      .oneinfo-item{
+        text-align: center;
+        font-size: 32px;
+      }
+      .oneinfo-img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .oneinfo-det{
+        text-align: center;
+        font-size: 28px;
+        color: #7f7f7f;
+        margin-right: 16px;
+      }
+      .info-input {
+        text-align: right;
+        font-size: 28px;
+        color: #f58db6;
+        margin-right: 16px;
+        font-weight: bold;
+      }
+      .updatepaybutton{
+        width: 50%;
+        height: 60px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        background-color: #f58db6;
+        color: #ffffff;
+        border-radius: 30px;
+      }
+    }
+  }
+
+  .oneinfobutton{
+    margin-top: 40px;
+    width: 90%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    background-color: #608fe6;
+    color: #ffffff;
+    border-radius: 30px;
+  }
+
+}

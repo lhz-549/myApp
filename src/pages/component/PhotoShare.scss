@@ -1,0 +1,64 @@
+.photo-share-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  text-align: center;
+
+  .photos {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: space-evenly;
+    gap: 40px; /* 调整方块之间的间距 */
+    text-align: center;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+
+    .photo-item {
+      width: 45%; /* 每行2个项目，间距2% */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative; /* 确保可以相对定位文字 */
+
+      .photo-image-container {
+        width: 100%;
+        padding-bottom: 100%; /* 高度等于宽度，保持正方形 */
+        position: relative;
+        border-radius: 30px; /* 圆角 */
+        //border: 2px solid #f88989; /* 给头像一个白色边框 */
+        overflow: hidden; /* 确保子元素不溢出边界 */
+
+        .photo-image {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover; /* 确保图片内容适应方形 */
+          border-radius: 30px; /* 确保图片本身也有圆角 */
+        }
+      }
+
+      .photo-text {
+        font-size: 26px;
+        color: #fff;
+        position: absolute;
+        height: 30%;
+        bottom: 0; /* 图片下方1/5处 */
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5); /* 半透明的黑色背景 */
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        display: flex; /* 使用 Flexbox 布局 */
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+
+
+
+
