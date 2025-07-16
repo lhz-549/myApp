@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e92f72d1-3265-4451-b8a4-49372a9f5172" name="Changes" comment="初次提交" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="E:\git\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Repository" />
+        <option name="mavenHome" value="E:/JAVA_TOOLS/apache-maven-3.6.3-bin" />
+        <option name="userSettingsFile" value="E:\JAVA_TOOLS\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2foE8dG7Y84gybozHOebGslka23" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WXAPPDEV/myApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;D:\\WXAPPDEV\\myApp\\node_modules\\stylelint&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\IDEA\\IntelliJ IDEA 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WXAPPDEV\project\myApp\src\pages\grouppayconfirmorder" />
+      <recent name="D:\WXAPPDEV\project\myApp\src\waitpay" />
+      <recent name="D:\WXAPPDEV\project\myApp\src\pages\plantadd" />
+      <recent name="D:\WXAPPDEV\project\myApp\src\pages\yhballs" />
+      <recent name="D:\WXAPPDEV\project\myApp\src\assets\animations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WXAPPDEV\project\myApp\src\pages\memberorder\memorderdetail" />
+      <recent name="D:\WXAPPDEV\project\myApp\src\pages\memberorder\memorderdetail\applyforbackprice" />
+      <recent name="D:\WXAPPDEV\project\myApp\src\pages" />
+      <recent name="D:\WXAPPDEV\project\myApp\src" />
+      <recent name="D:\WXAPPDEV\myApp\src\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev:weapp">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="myApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="myApp" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build:weapp" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:weapp" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev:h5" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:h5" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev:weapp" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:weapp" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev:weapp" />
+        <item itemvalue="npm.build:weapp" />
+        <item itemvalue="npm.dev:h5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e92f72d1-3265-4451-b8a4-49372a9f5172" name="Changes" comment="" />
+      <created>1714458871896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714458871896</updated>
+      <workItem from="1714458873136" duration="26638000" />
+      <workItem from="1715088302980" duration="145000" />
+      <workItem from="1715671342008" duration="14000" />
+      <workItem from="1715845439264" duration="696000" />
+      <workItem from="1715853010174" duration="1008000" />
+      <workItem from="1715866622763" duration="1406000" />
+      <workItem from="1715876682149" duration="1179000" />
+      <workItem from="1715909604226" duration="19766000" />
+      <workItem from="1715993308291" duration="2413000" />
+      <workItem from="1715996706145" duration="319000" />
+      <workItem from="1715997061085" duration="13439000" />
+      <workItem from="1716034011391" duration="16785000" />
+      <workItem from="1716102356199" duration="12456000" />
+      <workItem from="1716169843917" duration="11945000" />
+      <workItem from="1716209879370" duration="12975000" />
+      <workItem from="1716256329322" duration="19579000" />
+      <workItem from="1716341943331" duration="53848000" />
+      <workItem from="1716513329993" duration="19619000" />
+      <workItem from="1716773552652" duration="44969000" />
+      <workItem from="1716901725859" duration="13562000" />
+      <workItem from="1717403586923" duration="23981000" />
+      <workItem from="1717501681533" duration="10758000" />
+      <workItem from="1717552776512" duration="29557000" />
+      <workItem from="1717662052640" duration="178000" />
+      <workItem from="1717667159783" duration="525000" />
+      <workItem from="1717745548472" duration="5992000" />
+      <workItem from="1718072696568" duration="1360000" />
+      <workItem from="1718155887272" duration="7261000" />
+      <workItem from="1718243429101" duration="5529000" />
+      <workItem from="1718329053610" duration="13535000" />
+      <workItem from="1718588391860" duration="14848000" />
+      <workItem from="1718674328755" duration="24462000" />
+      <workItem from="1718760581394" duration="38518000" />
+      <workItem from="1718865730937" duration="12217000" />
+      <workItem from="1718885448781" duration="10219000" />
+      <workItem from="1718934213488" duration="176209000" />
+      <workItem from="1719795713092" duration="4066000" />
+      <workItem from="1719822340887" duration="599000" />
+      <workItem from="1719882132474" duration="79380000" />
+      <workItem from="1720101103850" duration="29176000" />
+      <workItem from="1720400590705" duration="38599000" />
+      <workItem from="1720506221082" duration="45925000" />
+      <workItem from="1720683756199" duration="44254000" />
+      <workItem from="1721007794982" duration="2235000" />
+      <workItem from="1721028143208" duration="108000" />
+      <workItem from="1721360400749" duration="124000" />
+      <workItem from="1721360536227" duration="133000" />
+      <workItem from="1721360677782" duration="694000" />
+      <workItem from="1721362748967" duration="605000" />
+      <workItem from="1721363444722" duration="99000" />
+      <workItem from="1721363577955" duration="14318000" />
+      <workItem from="1721409727332" duration="52573000" />
+      <workItem from="1721634968696" duration="5527000" />
+      <workItem from="1721704388992" duration="14220000" />
+      <workItem from="1721735360683" duration="6680000" />
+      <workItem from="1750749055997" duration="568000" />
+      <workItem from="1750749635830" duration="65000" />
+      <workItem from="1750749716734" duration="621000" />
+      <workItem from="1750757685345" duration="381000" />
+      <workItem from="1752073219436" duration="4155000" />
+      <workItem from="1752107759424" duration="4748000" />
+      <workItem from="1752139945723" duration="1357000" />
+      <workItem from="1752460761216" duration="363000" />
+      <workItem from="1752461131639" duration="122000" />
+      <workItem from="1752463952548" duration="4000" />
+      <workItem from="1752648568540" duration="3104000" />
+      <workItem from="1752651777360" duration="1165000" />
+      <workItem from="1752652948689" duration="2066000" />
+      <workItem from="1752655029863" duration="30000" />
+      <workItem from="1752655062077" duration="212000" />
+      <workItem from="1752655288433" duration="13000" />
+      <workItem from="1752655303096" duration="94000" />
+      <workItem from="1752655431370" duration="134000" />
+      <workItem from="1752655568126" duration="324000" />
+      <workItem from="1752655894355" duration="23000" />
+      <workItem from="1752655927026" duration="116000" />
+    </task>
+    <task id="LOCAL-00001" summary="初次提交">
+      <created>1752653162488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752653162488</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初次提交">
+      <created>1752653554787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752653554787</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初次提交">
+      <created>1752655143066</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752655143066</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初次提交" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

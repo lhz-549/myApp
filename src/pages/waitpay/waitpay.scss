@@ -1,0 +1,232 @@
+.confirm {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+
+  .orderinfo-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding-top: 16px;
+    border-radius: 25px;
+  }
+  .payinfo-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee1e1;
+
+    .payinfo-row{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+
+      .pay-iamge{
+        width: 50px;
+        height: 50px;
+        //object-fit: cover;
+      }
+      .waitpay-text{
+        margin-left: 10px;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+    .payinfo-between{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 70%;
+      margin-bottom: 20px;
+
+      .warning-text{
+        font-size: 26px;
+      }
+      .daojishi{
+        font-size: 26px;
+        color: #ffffff;
+        background-color: #f22754;
+        padding: 5px 16px;
+      }
+    }
+  }
+}
+
+
+.actions2{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  box-shadow: 0 0 10px rgba(28, 28, 28, 0.16);
+  //background-color: #5b7dc9;
+
+  .actions2-viewout1{
+    margin-left: 50px;
+  }
+  .actions2-viewout2{
+    width: 35%;
+    margin-right: 50px;
+  }
+  .action2-button-car{
+    height: 80px;
+    //background-color: #dacf30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 28px;
+  }
+  .action2-button-buy{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 40rpx;
+    background-color: #f21c0e; /* 立即购买的颜色 */
+  }
+}
+
+.pro-row{
+  position: relative;
+  display: flex;
+  border-radius: 25px;
+  justify-content: left;
+  flex-direction: row;
+  background-color: #ffffff;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  align-items: center;
+
+  .pro-clo-info{
+    position: relative;
+    display: flex;
+    border-radius: 25px;
+    border: 5px solid #e5dddd;
+    width: 60%;
+    padding: 16px;
+    background-color: #fff;
+    flex-direction: column;
+  }
+}
+.pro-image{
+  width: 200px;
+  height: 200px;
+  margin: 16px;
+  border-radius: 25px;
+  object-fit: cover;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(28, 28, 28, 0.16);
+}
+.pro-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pro-spec{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+
+  .specvalue{
+    //white-space: nowrap;         /* 强制文本在一行显示 */
+    overflow: hidden;            /* 隐藏溢出内容 */
+    //text-overflow: ellipsis;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #656565;
+    margin-right: 3px;
+    background-color: rgba(239, 239, 239, 0.83);
+  }
+}
+.pro-between{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .pro-price{
+    font-size: 28px;
+    color: #fa2e1b;
+    font-weight: bold;
+  }
+  .pro-quantity{
+    font-size: 28px;
+  }
+}
+
+.orderinfo-view{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 16px;
+
+  .orderinfo-text{
+    margin-left: 16px;
+    font-size: 32px;
+    color: #b6b6b6;
+  }
+  .orderinfo-numtext{
+    margin-left: 16px;
+    font-size: 32px;
+  }
+}
+.totalprice-view{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  //align-items: center;
+  padding: 16px;
+  margin-bottom: 20px;
+
+  .totalprice{
+    margin-left: 16px;
+    font-size: 32px;
+    color: #b6b6b6;
+  }
+  .totalpricenum{
+    margin-right: 16px;
+    font-size: 32px;
+    color: #f2290e;
+  }
+}
+
+.shouldpay{
+  display: flex;
+  flex-direction: row-reverse;
+  //align-items: center;
+  justify-content: right;
+  margin-top: 20px;
+
+  .shouldpayname{
+    margin-right: 16px;
+    font-size: 34px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .shouldpaynum{
+    margin-right: 16px;
+    font-size: 34px;
+    color: #f4290e;
+    font-weight: bold;
+  }
+}

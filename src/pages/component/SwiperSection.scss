@@ -1,0 +1,69 @@
+.double-swiper-container {
+  position: relative;
+  display: flex;
+  align-items: center;  // 确保子元素垂直居中
+  justify-content: center;  // 确保子元素水平居中
+  flex-direction: column;  // 设置主轴为垂直方向
+  width: 100%;
+  height: 400px; // 根据需要调整
+  margin-bottom: 20rpx;
+
+}
+.bottom-view {
+  width: 100%;
+  height: 100%;
+  background-size: cover;  // 确保背景图片铺满整个容器但不失真
+  background-position: center;
+}
+
+.top-swiper {
+  width: 100%;
+  height: 80%;
+  border: 5px solid white; /* 给头像一个白色边框 */
+}
+
+.top-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //border: 5px solid white; /* 给头像一个白色边框 */
+}
+
+.top-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; // 确保图片铺满整个容器但不失真
+  //min-width: 100%; /* 保证图片至少达到容器宽度的50% */
+  min-height: 100%; /* 保证图片至少达到容器高度的50% */
+}
+
+.top-swiper {
+  position: absolute;
+  top: 50%; // 顶部距离容器顶部50%
+  left: 50%; // 左边距离容器左边50%
+  transform: translate(-50%, -50%); // 使用transform使其完全居中
+  width: 100%; // 略小于底层
+  height: 80%; // 略小于底层
+  z-index: 10; // 确保在顶层
+}
+
+.swiper-indicator {
+  position: absolute;
+  bottom: 10px; // 调整指示器距离底部的位置
+  left: 50%; // 调整指示器距离左侧的位置
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-indicator .swiper-dot {
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff; // 未选中指示器的颜色
+  border-radius: 50%;
+  margin: 0 8px;
+}
+.swiper-indicator .swiper-dot-active {
+  background-color: #fad81e; // 选中指示器的颜色
+  width: 25rpx;
+}

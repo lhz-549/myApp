@@ -1,0 +1,145 @@
+.order {
+  position: relative;
+  background-color: #f5f5f5;
+  height: 100vh;
+  //height: auto;
+  display: flex;
+  flex-direction: column;  // 设置主轴为垂直方向
+  width: 100%;
+  padding-top: 16px;
+}
+
+.cart-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  border: 5px solid #e5dddd;
+  //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  //padding: 16px;
+  background-color: #fff;
+  flex-direction: column;
+  width: 94%;
+}
+.cart-image-text{
+  display: flex;
+  //flex-direction: row;
+  align-items: center;
+  flex-direction: column;
+  width: 94%;
+}
+.cart-item-right {
+  flex: 1;
+  display: flex;
+  //justify-content: space-between;
+  align-items: center;
+  margin: 16px;
+  margin-bottom: 0px;
+  width: 94%;
+}
+
+.cart-item-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 32px;
+  border-radius: 25px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(28, 28, 28, 0.16);
+}
+
+.cart-item-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.spec{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+
+  .specvalue{
+    //white-space: nowrap;         /* 强制文本在一行显示 */
+    overflow: hidden;            /* 隐藏溢出内容 */
+    //text-overflow: ellipsis;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #656565;
+    margin-right: 3px;
+    background-color: rgba(239, 239, 239, 0.83);
+  }
+}
+
+
+.cart-item-price-quantity {
+  display: flex;
+  justify-content: flex-end; // 确保子元素右对齐
+  align-items: center; // 如果需要垂直居中，可以添加这一行
+  width: 100%;
+  padding-bottom: 8px;
+  //border-bottom: 5px solid rgba(0, 0, 0, 0.13);
+}
+
+.cart-item-price {
+  font-size: 36px;
+  color: #f00;
+  //margin-bottom: 20px;
+  margin-right: 16px;
+  margin-light: 16px;
+  display: flex;
+  flex-direction: column;  // 设置主轴为垂直方向
+  justify-content: flex-end; // 确保子元素右对齐
+  //align-items: center; // 如果需要垂直居中，可以添加这一行
+  text-align: right; // 确保文本右对齐
+  width: 100%;
+}
+.cart-item-currency2 {
+  margin-left: 40px;
+  font-size: 33px; /* 较小的字体 */
+  color: rgba(61, 61, 61, 0.39);
+}
+.cart-item-currency1 {
+  font-size: 33px; /* 较小的字体 */
+  color: #3d3d3d;
+}
+.cart-item-currency {
+  font-size: 24px; /* 较小的字体 */
+  color: #f00;
+}
+.orderinfo{
+  position: relative;
+  display: flex;
+  //align-items: center;
+  border-radius: 25px;
+  border: 5px solid #e5dddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  margin: 16px;
+  //padding: 16px;
+  background-color: #fff;
+  flex-direction: column;
+  width: auto;
+  padding: 16px;
+}
+.orderiteminfo{
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #5b7dc9;
+}
+.orderiteminfoname{
+  font-size: 30px;
+  color: #989898;
+}
+.ordertitle{
+  margin-left: 16px;
+  font-size: 36px;
+  color: #02b36b;
+}
